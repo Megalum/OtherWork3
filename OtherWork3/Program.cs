@@ -90,7 +90,7 @@ namespace OtherWork3
 
                     case "Sum":
                         int sum = 0;
-                        for (int i = 0; i < array.Length; i++)
+                        for (int i = 0; i < lenght; i++)
                         {
                             sum += array[i];
                         }
@@ -139,8 +139,6 @@ namespace OtherWork3
                 } while (flag);
                 return key;
             }
-
-            Console.ReadKey();
         }
     }
 }
